@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD6AEB61E984E20006E6239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEB51E984E20006E6239 /* AppDelegate.swift */; };
+		9BD6AEB81E984E20006E6239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEB71E984E20006E6239 /* ViewController.swift */; };
+		9BD6AEBB1E984E20006E6239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6AEB91E984E20006E6239 /* Main.storyboard */; };
+		9BD6AEBD1E984E20006E6239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6AEBC1E984E20006E6239 /* Assets.xcassets */; };
+		9BD6AEC01E984E20006E6239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6AEBE1E984E20006E6239 /* LaunchScreen.storyboard */; };
+		9BD6AECB1E984E20006E6239 /* MOvie_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AECA1E984E20006E6239 /* MOvie_AssignmentTests.swift */; };
+		9BD6AED61E984E20006E6239 /* MOvie_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AED51E984E20006E6239 /* MOvie_AssignmentUITests.swift */; };
+		9BD6AEE41E984E9A006E6239 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEE31E984E9A006E6239 /* Movie.swift */; };
+		9BD6AEE61E984EF0006E6239 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEE51E984EF0006E6239 /* MySingleton.swift */; };
+		9BD6AEEA1E985005006E6239 /* insertdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEE91E985005006E6239 /* insertdata.swift */; };
+		9BD6AEEC1E985287006E6239 /* updatedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEEB1E985287006E6239 /* updatedata.swift */; };
+		9BD6AEF01E9852EA006E6239 /* deletedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6AEEF1E9852EA006E6239 /* deletedata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD6AEC71E984E20006E6239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD6AEAA1E984E20006E6239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD6AEB11E984E20006E6239;
+			remoteInfo = MOvie_Assignment;
+		};
+		9BD6AED21E984E20006E6239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD6AEAA1E984E20006E6239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD6AEB11E984E20006E6239;
+			remoteInfo = MOvie_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD6AEB21E984E20006E6239 /* MOvie_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOvie_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD6AEB51E984E20006E6239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BD6AEB71E984E20006E6239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BD6AEBA1E984E20006E6239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD6AEBC1E984E20006E6239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD6AEBF1E984E20006E6239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD6AEC11E984E20006E6239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD6AEC61E984E20006E6239 /* MOvie_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOvie_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD6AECA1E984E20006E6239 /* MOvie_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOvie_AssignmentTests.swift; sourceTree = "<group>"; };
+		9BD6AECC1E984E20006E6239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD6AED11E984E20006E6239 /* MOvie_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOvie_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD6AED51E984E20006E6239 /* MOvie_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOvie_AssignmentUITests.swift; sourceTree = "<group>"; };
+		9BD6AED71E984E20006E6239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD6AEE31E984E9A006E6239 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9BD6AEE51E984EF0006E6239 /* MySingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
+		9BD6AEE91E985005006E6239 /* insertdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insertdata.swift; sourceTree = "<group>"; };
+		9BD6AEEB1E985287006E6239 /* updatedata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updatedata.swift; sourceTree = "<group>"; };
+		9BD6AEEF1E9852EA006E6239 /* deletedata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deletedata.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD6AEAF1E984E20006E6239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6AEC31E984E20006E6239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6AECE1E984E20006E6239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD6AEA91E984E20006E6239 = {
+			isa = PBXGroup;
+			children = (
+				9BD6AEB41E984E20006E6239 /* MOvie_Assignment */,
+				9BD6AEC91E984E20006E6239 /* MOvie_AssignmentTests */,
+				9BD6AED41E984E20006E6239 /* MOvie_AssignmentUITests */,
+				9BD6AEB31E984E20006E6239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD6AEB31E984E20006E6239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6AEB21E984E20006E6239 /* MOvie_Assignment.app */,
+				9BD6AEC61E984E20006E6239 /* MOvie_AssignmentTests.xctest */,
+				9BD6AED11E984E20006E6239 /* MOvie_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD6AEB41E984E20006E6239 /* MOvie_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6AEB51E984E20006E6239 /* AppDelegate.swift */,
+				9BD6AEB71E984E20006E6239 /* ViewController.swift */,
+				9BD6AEB91E984E20006E6239 /* Main.storyboard */,
+				9BD6AEBC1E984E20006E6239 /* Assets.xcassets */,
+				9BD6AEBE1E984E20006E6239 /* LaunchScreen.storyboard */,
+				9BD6AEC11E984E20006E6239 /* Info.plist */,
+				9BD6AEE31E984E9A006E6239 /* Movie.swift */,
+				9BD6AEE51E984EF0006E6239 /* MySingleton.swift */,
+				9BD6AEE91E985005006E6239 /* insertdata.swift */,
+				9BD6AEEB1E985287006E6239 /* updatedata.swift */,
+				9BD6AEEF1E9852EA006E6239 /* deletedata.swift */,
+			);
+			path = MOvie_Assignment;
+			sourceTree = "<group>";
+		};
+		9BD6AEC91E984E20006E6239 /* MOvie_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6AECA1E984E20006E6239 /* MOvie_AssignmentTests.swift */,
+				9BD6AECC1E984E20006E6239 /* Info.plist */,
+			);
+			path = MOvie_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		9BD6AED41E984E20006E6239 /* MOvie_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6AED51E984E20006E6239 /* MOvie_AssignmentUITests.swift */,
+				9BD6AED71E984E20006E6239 /* Info.plist */,
+			);
+			path = MOvie_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD6AEB11E984E20006E6239 /* MOvie_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD6AEDA1E984E20006E6239 /* Build configuration list for PBXNativeTarget "MOvie_Assignment" */;
+			buildPhases = (
+				9BD6AEAE1E984E20006E6239 /* Sources */,
+				9BD6AEAF1E984E20006E6239 /* Frameworks */,
+				9BD6AEB01E984E20006E6239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOvie_Assignment;
+			productName = MOvie_Assignment;
+			productReference = 9BD6AEB21E984E20006E6239 /* MOvie_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD6AEC51E984E20006E6239 /* MOvie_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD6AEDD1E984E20006E6239 /* Build configuration list for PBXNativeTarget "MOvie_AssignmentTests" */;
+			buildPhases = (
+				9BD6AEC21E984E20006E6239 /* Sources */,
+				9BD6AEC31E984E20006E6239 /* Frameworks */,
+				9BD6AEC41E984E20006E6239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD6AEC81E984E20006E6239 /* PBXTargetDependency */,
+			);
+			name = MOvie_AssignmentTests;
+			productName = MOvie_AssignmentTests;
+			productReference = 9BD6AEC61E984E20006E6239 /* MOvie_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BD6AED01E984E20006E6239 /* MOvie_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD6AEE01E984E20006E6239 /* Build configuration list for PBXNativeTarget "MOvie_AssignmentUITests" */;
+			buildPhases = (
+				9BD6AECD1E984E20006E6239 /* Sources */,
+				9BD6AECE1E984E20006E6239 /* Frameworks */,
+				9BD6AECF1E984E20006E6239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD6AED31E984E20006E6239 /* PBXTargetDependency */,
+			);
+			name = MOvie_AssignmentUITests;
+			productName = MOvie_AssignmentUITests;
+			productReference = 9BD6AED11E984E20006E6239 /* MOvie_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD6AEAA1E984E20006E6239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Macstudent;
+				TargetAttributes = {
+					9BD6AEB11E984E20006E6239 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9BD6AEC51E984E20006E6239 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BD6AEB11E984E20006E6239;
+					};
+					9BD6AED01E984E20006E6239 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BD6AEB11E984E20006E6239;
+					};
+				};
+			};
+			buildConfigurationList = 9BD6AEAD1E984E20006E6239 /* Build configuration list for PBXProject "MOvie_Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD6AEA91E984E20006E6239;
+			productRefGroup = 9BD6AEB31E984E20006E6239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD6AEB11E984E20006E6239 /* MOvie_Assignment */,
+				9BD6AEC51E984E20006E6239 /* MOvie_AssignmentTests */,
+				9BD6AED01E984E20006E6239 /* MOvie_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD6AEB01E984E20006E6239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6AEC01E984E20006E6239 /* LaunchScreen.storyboard in Resources */,
+				9BD6AEBD1E984E20006E6239 /* Assets.xcassets in Resources */,
+				9BD6AEBB1E984E20006E6239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6AEC41E984E20006E6239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6AECF1E984E20006E6239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD6AEAE1E984E20006E6239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6AEEC1E985287006E6239 /* updatedata.swift in Sources */,
+				9BD6AEEA1E985005006E6239 /* insertdata.swift in Sources */,
+				9BD6AEB81E984E20006E6239 /* ViewController.swift in Sources */,
+				9BD6AEE61E984EF0006E6239 /* MySingleton.swift in Sources */,
+				9BD6AEB61E984E20006E6239 /* AppDelegate.swift in Sources */,
+				9BD6AEE41E984E9A006E6239 /* Movie.swift in Sources */,
+				9BD6AEF01E9852EA006E6239 /* deletedata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6AEC21E984E20006E6239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6AECB1E984E20006E6239 /* MOvie_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6AECD1E984E20006E6239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6AED61E984E20006E6239 /* MOvie_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD6AEC81E984E20006E6239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD6AEB11E984E20006E6239 /* MOvie_Assignment */;
+			targetProxy = 9BD6AEC71E984E20006E6239 /* PBXContainerItemProxy */;
+		};
+		9BD6AED31E984E20006E6239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD6AEB11E984E20006E6239 /* MOvie_Assignment */;
+			targetProxy = 9BD6AED21E984E20006E6239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD6AEB91E984E20006E6239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD6AEBA1E984E20006E6239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD6AEBE1E984E20006E6239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD6AEBF1E984E20006E6239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD6AED81E984E20006E6239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BD6AED91E984E20006E6239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD6AEDB1E984E20006E6239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOvie_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.MOvie-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BD6AEDC1E984E20006E6239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOvie_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.MOvie-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BD6AEDE1E984E20006E6239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOvie_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.MOvie-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOvie_Assignment.app/MOvie_Assignment";
+			};
+			name = Debug;
+		};
+		9BD6AEDF1E984E20006E6239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOvie_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.MOvie-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOvie_Assignment.app/MOvie_Assignment";
+			};
+			name = Release;
+		};
+		9BD6AEE11E984E20006E6239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MOvie_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.MOvie-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MOvie_Assignment;
+			};
+			name = Debug;
+		};
+		9BD6AEE21E984E20006E6239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MOvie_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.MOvie-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MOvie_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD6AEAD1E984E20006E6239 /* Build configuration list for PBXProject "MOvie_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6AED81E984E20006E6239 /* Debug */,
+				9BD6AED91E984E20006E6239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD6AEDA1E984E20006E6239 /* Build configuration list for PBXNativeTarget "MOvie_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6AEDB1E984E20006E6239 /* Debug */,
+				9BD6AEDC1E984E20006E6239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BD6AEDD1E984E20006E6239 /* Build configuration list for PBXNativeTarget "MOvie_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6AEDE1E984E20006E6239 /* Debug */,
+				9BD6AEDF1E984E20006E6239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BD6AEE01E984E20006E6239 /* Build configuration list for PBXNativeTarget "MOvie_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6AEE11E984E20006E6239 /* Debug */,
+				9BD6AEE21E984E20006E6239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD6AEAA1E984E20006E6239 /* Project object */;
+}
